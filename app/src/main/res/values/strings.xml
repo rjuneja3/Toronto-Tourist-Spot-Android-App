@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">RohanJuneja_JaiKunwarSidhu_COMP304Lab5</string>
+    <string name="cat1">Old Buildings</string>
+    <string name="cat2">Museums</string>
+    <string name="cat3">Attractions</string>
+    <string name="map_button">Regular/Satellite Map</string>
+    <string name="main_text">Click on the type of landmarks you wanna see:</string>
+
+    <string name="casa_loma">Casa Loma</string>
+    <string name="casa_loma_address">1 Austin Terrace, Toronto, ON M5R 1X8</string>
+    <string name="gooderham">Gooderham Building</string>
+    <string name="gooderham_address">49 Wellington St E, Toronto, ON M5E 1C9</string>
+
+    <string name="royal_museum">Royal Ontario Museum</string>
+    <string name="royal_museum_address">100 Queens Park, Toronto, ON M5S 2C6</string>
+    <string name="art_gallery">Art Gallery of Ontario</string>
+    <string name="art_gallery_address"> 317 Dundas St W, Toronto, ON M5T 1G4</string>
+
+    <string name="cn_tower">CN Tower</string>
+    <string name="cn_tower_address">290 Bremner Blvd, Toronto, ON M5V 3L9</string>
+    <string name="ripley_aquarium">Ripleys Aquarium of Canada</string>
+    <string name="ripley_aquarium_address">288 Bremner Blvd, Toronto, ON M5V 3L9</string>
+    <string name="title_activity_gooderham_map">Map</string>
+    <string name="title_activity_casa_loma_map">Map</string>
+    <string name="title_activity_c_n_tower_map">Map</string>
+    <string name="title_activity_map_c_n_tower">Map</string>
+    <string name="title_activity_map_casa_loma">Map</string>
+    <string name="title_activity_map_gooderham">Map</string>
+    <string name="title_activity_map_ripley_aqua">Map</string>
+    <string name="title_activity_map_royal_museum">Map</string>
+    <string name="title_activity_map_art_gallery">Map</string>
+</resources>

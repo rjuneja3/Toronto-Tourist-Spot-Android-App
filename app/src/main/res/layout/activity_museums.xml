@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:text="@string/cat2"
+            android:textAlignment="center"
+            android:textSize="30sp"
+
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="413dp"
+        android:layout_height="284dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/royal" />
+
+        <TextView
+            android:id="@+id/tvRoyalName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/royal_museum"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvRoyalAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/royal_museum_address"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnRoyalMuseum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="RoyalMuseum"
+            android:text="@string/map_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="417dp"
+        android:layout_height="286dp"
+
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="151dp"
+            app:srcCompat="@drawable/art" />
+
+        <TextView
+            android:id="@+id/tvArtGallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/art_gallery"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvArtGalleryAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/art_gallery_address"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnArtGallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ArtGalleryMuseum"
+            android:text="@string/map_button" />
+
+    </LinearLayout>
+
+</LinearLayout>
